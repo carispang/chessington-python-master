@@ -27,7 +27,7 @@ class TestPawns:
         pawn = Pawn(Player.BLACK)
         square = Square.at(6, 4)
         board.set_piece(square, pawn)
-
+        # pawn here is black 
         # Act
         moves = pawn.get_available_moves(board)
 
